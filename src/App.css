@@ -1,1 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px 10px;
+
+  font-size: 1.1rem;
+  background-color: rgb(208, 164, 255);
+}
+
+.nav-link {
+  padding: 0px 20px;
+  color: white;
+  transition: 0.2s;
+}
+
+.nav-logo {
+  padding: 0px 10px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+a {
+  text-decoration: none;  
+}
 
