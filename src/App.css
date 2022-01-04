@@ -1,3 +1,12 @@
+html {
+  font-size: 1em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -5,8 +14,13 @@
   height: 40px;
   padding: 10px 10px;
 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
   font-size: 1.1rem;
-  background-color: rgb(208, 164, 255);
+  background-color: rgb(96, 5, 194);
 }
 
 .nav-link {
@@ -17,6 +31,8 @@
 
 .nav-logo {
   padding: 0px 10px;
+
+  white-space: nowrap;
   color: white;
 }
 
@@ -27,4 +43,52 @@
 a {
   text-decoration: none;  
 }
+
+
+
+.jumbotron {
+  position: relative;
+  height: 93.3vh;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+  /* border: 1px solid red; */
+  text-align: center;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+header {
+  padding: 20px;
+}
+
+.home-header {
+  margin: 0;
+}
+
+.home-description {
+  color: rgb(130, 130, 130);
+  font-size: 1.1em;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.home-image {
+  position: relative;
+  bottom: -200px;
+  width: 100%;
+
+  animation: 1s ease 0s 1 slideInFromBottom;
+  overflow: hidden;
+}
+
+
 
