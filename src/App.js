@@ -5,8 +5,8 @@ const App = (prop) => {
     <div className="App">
       <div className="jumbotron">
         <header>
-          <h1 className="home-header">Welcome to Computer World.</h1>
-          <h1 className="home-header">Experience Power.</h1>
+          <h1 className="home-title">Welcome to Computer World.</h1>
+          <h1 className="home-title">Experience power.</h1>
           <p className="home-description">
             Search for the perfect machine from a variety of retailers.
           </p>
