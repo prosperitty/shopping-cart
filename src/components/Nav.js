@@ -18,9 +18,9 @@ const Nav = () => {
         </div>
       </div>
       <div className="nav-link-container toggle-visibility">
-        <Link className="nav-link" to="/">Home</Link>
-        <Link className="nav-link" to="/shop">Shop</Link>
-        <Link className="nav-link" to="/cart">Cart</Link>
+        <Link className="nav-link" onClick={displayLinks} to="/">Home</Link>
+        <Link className="nav-link" onClick={displayLinks} to="/shop">Shop</Link>
+        <Link className="nav-link" onClick={displayLinks} to="/cart">Cart</Link>
       </div>
     </nav>
   );
