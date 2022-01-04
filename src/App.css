@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  min-height: 40px;
   padding: 10px 10px;
 
   position: -webkit-sticky;
@@ -19,32 +19,35 @@ body {
   top: 0;
   z-index: 2;
 
-  font-size: 1.1rem;
+  color: white;
+  font-size: 1.1em;
   background-color: rgb(96, 5, 194);
 }
 
 .nav-link {
-  padding: 0px 20px;
-  color: white;
+  padding: 0 10px;
+  color: inherit;
   transition: 0.2s;
-}
-
-.nav-logo {
-  padding: 0px 10px;
-
-  white-space: nowrap;
-  color: white;
 }
 
 .nav-link:hover {
   color: gray;
 }
 
+.nav-logo {
+  padding: 0 10px;
+
+  white-space: nowrap;
+  color: inherit;
+}
+
+.nav-handler {
+  display: none;
+}
+
 a {
   text-decoration: none;  
 }
-
-
 
 .jumbotron {
   position: relative;
@@ -55,7 +58,6 @@ a {
 
   /* border: 1px solid red; */
   text-align: center;
-  text-transform: capitalize;
   overflow: hidden;
 }
 
@@ -63,7 +65,7 @@ header {
   padding: 20px;
 }
 
-.home-header {
+.home-title {
   margin: 0;
 }
 
@@ -90,5 +92,48 @@ header {
   overflow: hidden;
 }
 
+.show-block {
+  display:block;
+}
 
+/* media queries */
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display:block
+  }
+
+  .nav-link {
+    display: block;
+    padding: 10px;
+  }
+
+  .nav-link-container {
+    display: none;
+  }
+
+  .nav-logo {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .nav-handler {
+    height: 40px;
+    width: 30px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+    border: 1.5px solid rgb(190, 190, 190);
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+
+  .nav-icon {
+    fill: rgb(190, 190, 190);
+  }
+}
 
