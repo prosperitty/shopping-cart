@@ -147,10 +147,33 @@ header {
 .product-name {
   margin-top: 0;
   color: rgb(118, 118, 118);
+  text-transform: capitalize;
 }
 
 .product-price {
   margin-bottom: 0;
+}
+
+input[type="number"] {
+  width: 40px;
+  float: right;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+button {
+  height: 20px;
+  margin-right: 5px;
+  float: right;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(5, 66, 188);
+  color: white;
+  text-transform: capitalize;
+}
+
+button:hover {
+  background-color: rgb(64, 91, 224);
 }
 
 .toggle-visibility {
