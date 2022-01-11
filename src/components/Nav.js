@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
 
   function displayLinks() {
     const navLinks = document.querySelector('.nav-link-container');
@@ -20,7 +20,7 @@ const Nav = () => {
       <div className="nav-link-container toggle-visibility">
         <Link className="nav-link" onClick={displayLinks} to="/">Home</Link>
         <Link className="nav-link" onClick={displayLinks} to="/shop">Shop</Link>
-        <Link className="nav-link" onClick={displayLinks} to="/cart">Cart</Link>
+        <Link className="nav-link" onClick={displayLinks} to="/cart">Cart<sub> {props.cartQuantity}</sub></Link>
       </div>
     </nav>
   );
