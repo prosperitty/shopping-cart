@@ -195,7 +195,7 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Nav cartQuantity={totalQuantity} />
       <Routes>
         <Route path="/" element={<App />} />
