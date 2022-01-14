@@ -8,29 +8,42 @@ const Cart = (props) => {
           className="product-image"
         />
       </div>
-      <div className="cart-detail-container">
+      <div className="cart-detail">
         <h4 className="product-company">{item.company}</h4>
         <p className="product-name">{item.name}</p>
-        <div className="cart-detail">
-          <p className="product-price">
-            <span>$</span>
-            {parseFloat(item.price)}
-          </p>
-          <p>
-            <span>Quantity:</span>
-            <span>{item.quantity}</span>
-          </p>
-        </div>
+        <p>Quantity: {item.quantity}
+        </p>
       </div>
+          <p className="product-price">${parseFloat(item.price)}</p>
     </div>
   ));
 
   return (
     <div className="cart">
-      {cartItems}
-      <div>
-        <h3>subtotal:{props.subtotal}</h3>
-        <h3>total:{props.subtotal}</h3>
+      <h1>cart</h1>
+      <div className="cart-items">
+        <div>
+          {cartItems}
+        </div>
+        <div className="checkout">
+          <h3>
+            <span>
+              subtotal:
+            </span>
+            <span>
+              ${props.subtotal}
+            </span>
+          </h3>
+          <h3>            
+            <span>
+              total:
+            </span>
+            <span>
+              ${props.subtotal}
+            </span>
+          </h3>
+        </div>
+        <button className="checkout-btn">checkout</button>
       </div>
     </div>
   );
