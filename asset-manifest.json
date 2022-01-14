@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.49d0873f.css",
+    "main.js": "/shopping-cart/static/js/main.fc58b316.js",
+    "static/js/787.3e864ea5.chunk.js": "/shopping-cart/static/js/787.3e864ea5.chunk.js",
+    "static/media/nzxt-foundation-black.avif": "/shopping-cart/static/media/nzxt-foundation-black.6b6c555e1ab7868d91e8.avif",
+    "static/media/nzxt-foundation-white.avif": "/shopping-cart/static/media/nzxt-foundation-white.5182737dcf347dac3282.avif",
+    "static/media/nzxt-streamer-white.avif": "/shopping-cart/static/media/nzxt-streamer-white.90300088eb19ded20845.avif",
+    "static/media/nzxt-streamer-black.avif": "/shopping-cart/static/media/nzxt-streamer-black.5aaadd3380ef5572dfc1.avif",
+    "static/media/nzxt-computers.avif": "/shopping-cart/static/media/nzxt-computers.83d3fd29bb23b0745808.avif",
+    "static/media/ibuypower-elementmr.jpg": "/shopping-cart/static/media/ibuypower-elementmr.d98f400fd0ce23e06a44.jpg",
+    "static/media/ibuypower-tracemr.jpg": "/shopping-cart/static/media/ibuypower-tracemr.23601fd76a20b341365a.jpg",
+    "static/media/ibuypower-slatemr.jpg": "/shopping-cart/static/media/ibuypower-slatemr.174486d72a3701f5e34a.jpg",
+    "static/media/cyberpower-xtreme.jpg": "/shopping-cart/static/media/cyberpower-xtreme.03526d775872118b7222.jpg",
+    "static/media/cyberpower-supreme.jpg": "/shopping-cart/static/media/cyberpower-supreme.4d13cc0b6b72359c2fdb.jpg",
+    "static/media/cyberpower-gamermaster.jpg": "/shopping-cart/static/media/cyberpower-gamermaster.952b320b624075831aa4.jpg",
+    "static/media/nzxt-creators-black.avif": "/shopping-cart/static/media/nzxt-creators-black.a16daf5aa65b6ab9cb53.avif",
+    "static/media/nzxt-creators-white.avif": "/shopping-cart/static/media/nzxt-creators-white.dea46292489b10c0cd3f.avif",
+    "index.html": "/shopping-cart/index.html",
+    "main.49d0873f.css.map": "/shopping-cart/static/css/main.49d0873f.css.map",
+    "main.fc58b316.js.map": "/shopping-cart/static/js/main.fc58b316.js.map",
+    "787.3e864ea5.chunk.js.map": "/shopping-cart/static/js/787.3e864ea5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49d0873f.css",
+    "static/js/main.fc58b316.js"
+  ]
+}
