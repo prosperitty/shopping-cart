@@ -21,4 +21,4 @@ The user may look at the items added to the cart in the cart page. The cart page
 
 [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/shopping-cart)
 
-[Live Demo](https://alex-lvl.github.io/shopping-cart/)
+[Live Demo](https://prosperitty.github.io/shopping-cart/)
